@@ -1,0 +1,38 @@
+TestNg:
+
+@parameters="browser"
+
+
+
+@Test(dataproviders="getData")
+public void raja(){}
+
+@Dataprovider
+public rani(){
+return xxx;
+}
+
+@Test(DependsOn="")
+
+@Test(priority=2, groups="heros")
+
+
+
+Suite
+Before Test
+class
+method
+method1
+after
+before method
+method2
+after method
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [myTestNgSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="myTestNgTest(failed)">
+    <parameter name="atul" value="sher"/>
+    <classes>
+      <class name="myProject.myTest3">
+        <methods>
+          <include name="useJsonData"/>
+        </methods>
+      </class> <!-- myProject.myTest3 -->
+    </classes>
+  </test> <!-- myTestNgTest(failed) -->
+</suite> <!-- Failed suite [myTestNgSuite] -->
